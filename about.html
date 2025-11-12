@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" onclick="navigate('index.html')">👨‍💻 Goverdhan</a>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-4 text-info">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="Solopassportpic.jpeg" class="rounded-circle img-fluid border border-info border-3" alt="">
+      </div>
+      <div class="col-md-8">
+        <p class="lead">
+          I'm Goverdhan, a Computer Science student passionate about software development, data science, and building creative digital solutions. 
+          I love crafting elegant and efficient websites using modern web technologies.
+        </p>
+        <p>Skills: HTML, CSS, JavaScript, Python, Basics of C,C++,C#,PHP, Java SQL, and more.</p>
+        <button class="btn btn-outline-info mt-2" onclick="navigate('projects.html')">See My Work</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center p-3 bg-dark text-secondary">
+    © 2025 Goverdhan | Portfolio
+  </footer>
+
+  <script src="script.js"></script>
+  <a href="index.html" class="back-home-btn">Back to Home</a>
+   
+
+  <style>
+    .back-home-btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      background-color: #00ffc6;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0, 255, 198, 0.4);
+    }
+    .back-home-btn:hover {
+      background-color: #00d6a8;
+      box-shadow: 0 0 25px rgba(0, 255, 198, 0.6);
+      transform: translateY(-3px);
+    }
+  </style>
+</body>
+</html>
