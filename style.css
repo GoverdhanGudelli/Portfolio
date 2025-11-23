@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #1b1b2f);
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 4px solid #17a2b8;
+  width: 150px;
+  height: 150px;
+}
+
+.typing-text {
+  font-size: 1.3rem;
+  color: #ccc;
+  border-right: 2px solid #17a2b8;
+  animation: typing 3s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Project cards */
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(23, 162, 184, 0.5);
+}
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.15);
+}
+.sec{
+  margin:50px
+}
+.logo-img{
+  height: 100px;
+  width: 100px;
+}
