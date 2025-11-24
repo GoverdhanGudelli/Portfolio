@@ -1,6 +1,25 @@
+/* .bg-image {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; cool parallax effect
+}
+ */
+ .bg-container {
+  background: linear-gradient(120deg, #ff007f, #7f00ff);
+
+ }
 body {
+  background-image: url("BGIMG.png");
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  background: radial-gradient(circle at top left, #3a0ca3, #000);
+
+
+}
+nav-item mx-2{
+  background: linear-gradient(135deg, #00ff87, #0b0f0f);
+
 }
 
 .hero {
